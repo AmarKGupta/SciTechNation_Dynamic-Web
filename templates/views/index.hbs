@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sci Tech Nation</title>
+    <link rel="icon" href="https://img.icons8.com/material/24/000000/artificial-intelligence.png">
+</head>
+<body>
+
+  {{>navbar}}
+  {{!--hero section start--}}
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <div class="col-md-6 col-12 hero-text order-md-0 order-1  d-flex justify-content-center align-items-left flex-column">
+            <h1>WE WILL HELP YOU TO</h1>
+            <h1>LEARN SCIENCE & TECH</h1>
+            <P> We Are The Team of <span class ="bold-style">Science & Technolgy Enthusiasts</span></P>
+            <button class='btn-style btn-primary'>Read More</button>
+          </div>
+          {{!--right side --}}
+          <div class="col-md-6 col-12 hero-text order-md-0 order-1">
+            <figure>
+              <img src="images/growth.svg" alt="herosection_img">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   {{!--hero section ends--}}
+
+    {{!--about us start--}}
+  
+   {{>about}}
+   {{!--about us ends--}}
+
+  {{!--our service start--}}
+  
+   {{>service}}
+   {{!--our service ends--}}
+
+   {{!--contacts start--}}
+  
+   {{>contact}}
+   {{!--contacts ends--}}
+
+   {{!--maps start--}}
+  
+   {{>maps}}
+   {{!--maps ends--}}
+
+   
+
+
+  <script src="../jq/jquery.js" type="text/javascript"></script>  
+  <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
